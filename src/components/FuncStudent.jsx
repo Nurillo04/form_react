@@ -18,7 +18,7 @@ const FuncStudent = () => {
     setStudent(person);
   };
   return (
-    <div className="w-50 mx-auto blok">
+    <div className="w-50 mx-auto">
       <form className="mt-5 " onSubmit={addStudent}>
         <div className="mb-3">
           <label className="form-label" htmlFor="firstName">
